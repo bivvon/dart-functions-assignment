@@ -1,0 +1,28 @@
+void main() {
+  // Integer data type (int) example
+  int age = 25; // represents age of a person
+  print("Age: $age");
+
+  // Double data type example
+  double height = 5.9; // represents height of a person in feet
+  print("Height: $height feet");
+
+  // String data type example
+  String name = "John Doe"; // represents name of a person
+  print("Name: $name");
+
+  // List data type example
+  List<int> numbers = [1, 2, 3, 4, 5]; // represents a list of integers
+  print("Numbers: $numbers");
+
+  // Map data type example
+  Map<String, dynamic> person = {
+    'name': 'Alice',
+    'age': 30,
+    'city': 'New York'
+  }; // represents information about a person
+  print("Person: $person");
+
+  // Accessing elements from Map
+  print("Name: ${person['name']}, Age: ${person['age']}, City: ${person['city']}");
+}
